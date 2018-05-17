@@ -89,7 +89,7 @@ def run(filename):
                 if commandList[0] == 'display':
                     display(screen)
                 else:
-                    save_extension(screen, commandList[1])
+                    save_extension(screen, commandList[1]+commandList[2])
     else:
         print "Parsing failed."
         return
